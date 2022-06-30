@@ -17,3 +17,9 @@ h1::before {
   content: 'hello world ';
   color: #0000ff;
 } */
+
+
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+}

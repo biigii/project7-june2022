@@ -1,7 +1,91 @@
 .main-content img {
-  width: 100%;
+    width: 100%;
 }
 
 .mid-content img {
-  width: 100%;
+    width: 100%;
+}
+
+.container-static,
+.container-relative,
+.container-absolute {
+    border: 3px solid #000000;
+    border-radius: 10px;
+    height: 500px;
+    margin: 10px;
+}
+
+.box {
+    border: 2px solid #f11;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 90px;
+}
+
+.box-static {
+    background-color: #f11;
+    position: static;
+    /* margin-bottom: 25px; */
+}
+
+.box-relative-2 {
+  background-color: #dc7486;
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+  z-index: -2;
+}
+
+.box-relative {
+    background-color: #00ff00;
+    position: relative;
+    /* now i have access to top bottom right and left css properties */
+    bottom: 25px;
+    left: 50px;
+    z-index: -1;
+}
+
+.box-absolute {
+  color: #b9b903;
+  background-color: #0000ff;
+  position: absolute;
+   /* now i have access to top bottom right and left css properties */
+   top: 60px;
+   left: 20px;
+   z-index: -1;
+}
+
+.container-absolute {
+  position: relative;
+}
+
+.box-fixed {
+  height: 100px;
+  border-radius: 10px;
+  border: 2px solid #f11;
+  text-align: center;
+  width: 300px;
+  background-color: #f11;
+  font-size: 90px;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  right: 0
+}
+
+.box-sticky {
+  height: 100px;
+  border-radius: 10px;
+  border: 2px solid #080;
+  text-align: center;
+  width: 300px;
+  background-color: #080;
+  font-size: 90px;
+  text-transform: uppercase;
+  position: sticky;
+  top: 50px;
 }

@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>project 7</title>
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="icon" href="./assets/images/favicon.png">
-</head>
-<body>
-  <h1>about</h1>
-  <h2>Lorem ipsum dolor sit amet.</h2>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>project 7</title>
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="icon" href="./assets/images/favicon.png" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="./index.html">home</a>
+                <a href="./about.html">about</a>
+            </nav>
+        </header>
+        <h1>about</h1>
+        <!-- postion static, relative, absolute, fixed, sticky -->
+        <main class="container">
+            <div class="box-sticky">sticky</div>
 
-  <main class="container">
-    
-  </main>
+            <section class="container-absolute">
+                <h2>position absolute</h2>
+                <div class="box">a</div>
+                <div class="box box-absolute">b</div>
+                <div class="box">c</div>
+                <div class="box">d</div>
+            </section>
 
-</body>
+            <section class="container-relative">
+                <h2>position relative</h2>
+                <div class="box">a</div>
+                <div class="box box-relative">b</div>
+                <div class="box box-relative-2">c</div>
+                <div class="box">d</div>
+            </section>
+
+            <section class="container-static">
+                <h2>position static</h2>
+                <div class="box">a</div>
+                <div class="box box-static">b</div>
+                <div class="box">c</div>
+                <div class="box">d</div>
+            </section>
+
+            <div class="box-fixed">fixed</div>
+        </main>
+    </body>
 </html>
