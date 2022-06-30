@@ -17,34 +17,3 @@ h1::before {
   content: 'hello world ';
   color: #0000ff;
 } */
-
-/* https://www.toptal.com/designers/htmlarrows/symbols/ */
-h1::after {
-  content: '\2600';
-  color: #ff8e04
-}
-
-h1::before {
-  content: '\261D';
-}
-
-p::before {
-  content: '\263B';
-  color: #ff7777;
-  font-size: 30px;
-}
-
-h2 {
-  text-align: center;
-  text-transform: capitalize;
-}
-
-h2::after {
-  content: '';
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-color: #ff8e04;
-  border-radius: 50%;
-  margin-left: 10px;
-}

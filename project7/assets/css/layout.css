@@ -10,7 +10,7 @@
 
 .col {
   float: left;
-  /* padding: 5px; */
+  padding: 5px;
 }
 
 .col-1 {width: 8.33%;}
@@ -26,6 +26,13 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.clearfix {
+
+.row {
+  margin-bottom: 25px;
+}
+
+.row::after {
+  content: '';
+  display: block;
   clear: both;
 }
